@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Joseph Abel, student, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      UL2CM3.DLL V1.158.5.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Keil_v5\TM4C123Valvanoware\Lab6wLab3_4C123\Lab6.uvprojx
+Project File Date:  12/14/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Lab6'
+compiling AP_Lab6.c...
+AP_Lab6.c(74): error:  #29: expected an expression
+    for(int i=0;i<length;i++){
+AP_Lab6.c(74): error:  #20: identifier "i" is undefined
+    for(int i=0;i<length;i++){
+AP_Lab6.c(300): error:  #268: declaration may not appear after executable statement in block
+  	uint8_t i;
+AP_Lab6.c(295): warning:  #177-D: variable "cnt" was declared but never referenced
+  	uint8_t cnt = sizeof(NPI_AddCharDescriptor)/sizeof(uint8_t);
+AP_Lab6.c(378): error:  #268: declaration may not appear after executable statement in block
+  	uint8_t i;
+AP_Lab6.c(518): error:  #268: declaration may not appear after executable statement in block
+  	uint8_t i;
+AP_Lab6.c(514): warning:  #177-D: variable "cnt" was declared but never referenced
+  	uint8_t cnt = sizeof(NPI_SetAdvertisementData)/sizeof(uint8_t);
+AP_Lab6.c: 2 warnings, 5 errors
+compiling Lab6.c...
+test.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif
+Lab6.c(401): error:  #29: expected an expression
+      for(int i=0; i<SOUNDRMSLENGTH; i=i+1){
+Lab6.c(401): error:  #20: identifier "i" is undefined
+      for(int i=0; i<SOUNDRMSLENGTH; i=i+1){
+Lab6.c: 1 warning, 2 errors
+compiling os.c...
+os.c(49): error:  #29: expected an expression
+  	for(int i = 0; i< NUMPERIODIC; i++)
+os.c(49): error:  #20: identifier "i" is undefined
+  	for(int i = 0; i< NUMPERIODIC; i++)
+os.c(133): error:  #268: declaration may not appear after executable statement in block
+   int32_t status;
+os.c(145): error:  #29: expected an expression
+  	for(int i=0; i<NUMPERIODIC; i++) {
+os.c(145): error:  #20: identifier "i" is undefined
+  	for(int i=0; i<NUMPERIODIC; i++) {
+os.c(152): error:  #29: expected an expression
+  	for(int i=0; i<NUMTHREADS; i++) {
+os.c: 0 warnings, 6 errors
+compiling AP.c...
+..\inc\AP.c(355): error:  #29: expected an expression
+    for(int i=0;i<size;i++){
+..\inc\AP.c(355): error:  #20: identifier "i" is undefined
+    for(int i=0;i<size;i++){
+..\inc\AP.c(422): error:  #29: expected an expression
+    for(int i=0;i<size;i++){
+..\inc\AP.c(422): error:  #20: identifier "i" is undefined
+    for(int i=0;i<size;i++){
+..\inc\AP.c: 0 warnings, 4 errors
+".\Lab6.axf" - 17 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::Device:Startup:1.0.1
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Keil_v5\TM4C123Valvanoware\Lab6wLab3_4C123\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

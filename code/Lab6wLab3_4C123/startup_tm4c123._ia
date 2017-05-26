@@ -1,0 +1,2 @@
+-mthumb --gdwarf-2 -mthumb-interwork -IC:/Keil_v5/TM4C123Valvanoware/Lab6wLab3_4C123/RTE -IC:/Keil_v5/ARM/PACK/ARM/CMSIS/4.5.0/CMSIS/Include -IC:/Keil_v5/ARM/PACK/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123 -I"C:/GNU Tools ARM Embedded/arm-none-eabi/arm-none-eabi/include" --defsym __UVISION_VERSION=521 --defsym _RTE_=1 --defsym TM4C123GH6PM=1
+--MD ./startup_tm4c123.d -o ./startup_tm4c123.o "RTE/Device/TM4C123GH6PM/startup_TM4C123.s"

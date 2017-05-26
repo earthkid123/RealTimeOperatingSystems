@@ -1,0 +1,1 @@
+-mthumb -mthumb-interwork -o "./Lab6.elf" "./bsp.o" "./osasm.o" "./os.o" "./profile.o" "./ap_lab6.o" "./lab6.o" "./ap.o" "./cortexm.o" "./gpio.o" "./uart0.o" "./uart1.o" "./aes128.o" "./test.o" "./texas.o" "./startup_tm4c123.o" "./system_tm4c123.o" -lm

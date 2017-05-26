@@ -1,0 +1,12 @@
+.\lab6.o: Lab6.c
+.\lab6.o: tm4c123gh6pm.h
+.\lab6.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\lab6.o: ../inc/BSP.h
+.\lab6.o: ../inc/CortexM.h
+.\lab6.o: ../inc/UART0.h
+.\lab6.o: ../inc/Profile.h
+.\lab6.o: os.h
+.\lab6.o: Texas.h
+.\lab6.o: ../inc/AP.h
+.\lab6.o: AP_Lab6.h
+.\lab6.o: test.h
